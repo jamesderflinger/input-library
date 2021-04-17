@@ -1,0 +1,57 @@
+input {
+    margin: .25rem;
+}
+.input{
+    border: 1px solid #aaa;
+    outline: none;
+    font-size: inherit;
+    padding: .5em;
+    border-radius: .2em;
+}
+
+.input {
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+.input.input-default {
+    border: 2px solid hsl(240, 2%, 30%);
+}
+
+.input:hover, input:focus {
+    border: 2px solid hsl(240, 100%, 50%);
+    box-shadow: 0 0 5px 0 hsl(240, 100%, 30%);
+    background-color: hsl(240, 100%, 70%, .10);
+}
+
+.input.input-success {
+    border: 2px solid hsl(120, 100%, 25%);
+}
+
+.input.input-success:hover, .input-success:focus {
+    border: 3px solid hsl(120, 100%, 25%);
+    box-shadow: 0 0 5px hsl(120, 100%, 35%);
+    background-color: hsl(120, 100%, 15%, .10);
+}
+
+.input.input-error {
+    border: 2px solid hsl(0, 100%, 50%);
+}
+
+.input.input-error:hover, .input-error:focus {
+    border: 3px solid hsl(0, 100%, 50%);
+    box-shadow: 0 0 5px hsl(0, 100%, 65%);
+    background-color: hsl(0, 100%, 50%, .10);
+}
+
+.input.input-large {
+    font-size: 1.25rem;
+}
+
+.input.input-small {
+    font-size: .75rem;
+}
+
+.input:disabled{
+    background-color: #EAEAEAEA;
+}
